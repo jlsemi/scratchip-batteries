@@ -15,45 +15,57 @@ default = "chisel3-v3.2"
 
 batteries = {
     'chisel3-v3.5.4': {
-        ".scratchip": [
-            get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
-            get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
-        ],
-        "hw/chisel/": [
-            get_resource_name("assets/chisel3-v3.5.4/build.sc"),
-        ],
-        "hw/chisel/src": [
-            get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
-        ],
+        "init": {
+            ".scratchip": [
+                get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
+            ],
+        },
+        "create": {
+            "hw/chisel/": [
+                get_resource_name("assets/chisel3-v3.5.4/build.sc"),
+            ],
+            "hw/chisel/src": [
+                get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
+            ],
+        }
     },
     'chisel3-jlsemi-v3.5.4': {
-       ".scratchip": [
-            get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
-            get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
-       ],
-       "hw/chisel/": [
-            get_resource_name("assets/chisel3-jlsemi-v3.5.4/build.sc"),
-       ],
-       "hw/chisel/src": [
-           get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
-       ],
-       ".scratchip/jars": [
-           get_resource_name("assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar"),
-       ],
+        "init": {
+            ".scratchip": [
+                get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
+            ],
+            ".scratchip/jars": [
+                get_resource_name("assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar"),
+            ],
+        },
+        "create": {
+            "hw/chisel/": [
+                get_resource_name("assets/chisel3-jlsemi-v3.5.4/build.sc"),
+            ],
+            "hw/chisel/src": [
+                get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
+            ],
+        },
     },
     'chisel3-v3.2': {
-        ".scratchip": [
-            get_resource_name("assets/chisel3-jlsemi-v3.2/cache.tar.gz"),
-            get_resource_name("assets/chisel3-jlsemi-v3.2/mill.tar.gz"),
-        ],
-        ".scratchip/jars": [
-            get_resource_name("assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar"),
-        ],
-        "hw/chisel/": [
-            get_resource_name("assets/chisel3-jlsemi-v3.2/build.sc"),
-        ],
-        "hw/chisel/src": [
-            get_resource_name("assets/chisel3-jlsemi-v3.2/Top.scala"),
-        ],
+        "init": {
+            ".scratchip": [
+                get_resource_name("assets/chisel3-jlsemi-v3.2/cache.tar.gz"),
+                get_resource_name("assets/chisel3-jlsemi-v3.2/mill.tar.gz"),
+            ],
+            ".scratchip/jars": [
+                get_resource_name("assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar"),
+            ],
+        },
+        "create": {
+            "hw/chisel/": [
+                get_resource_name("assets/chisel3-jlsemi-v3.2/build.sc"),
+            ],
+            "hw/chisel/src": [
+                get_resource_name("assets/chisel3-jlsemi-v3.2/Top.scala"),
+            ],
+        }
     },
 }
