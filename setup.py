@@ -15,6 +15,11 @@ setup(
             "assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar",
             "assets/chisel3-jlsemi-v3.5.4/Top.scala",
             "assets/chisel3-jlsemi-v3.5.4/build.sc",
+            "assets/chisel3-jlsemi-v3.2/cache.tar.gz",
+            "assets/chisel3-jlsemi-v3.2/mill.tar.gz",
+            "assets/chisel3-jlsemi-v3.2/Top.scala",
+            "assets/chisel3-jlsemi-v3.2/build.sc",
+            "assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar",
         ],
     },
     use_scm_version={
