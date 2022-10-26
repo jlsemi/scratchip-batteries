@@ -28,6 +28,9 @@ batteries = {
             "hw/chisel/src": [
                 get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
             ],
+            ".": [
+                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
+            ],
         }
     },
     'chisel3-jlsemi-v3.5.4': {
@@ -47,6 +50,31 @@ batteries = {
             "hw/chisel/src": [
                 get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
             ],
+            ".": [
+                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
+            ],
+        },
+    },
+    'knitkit': {
+        "init": {
+            ".scratchip": [
+                get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
+            ],
+            ".scratchip/jars": [
+                get_resource_name("assets/knitkit/knitkit.jar"),
+            ],
+        },
+        "create": {
+            "hw/knitkit/": [
+                get_resource_name("assets/knitkit/build.sc"),
+            ],
+            "hw/knitkit/src": [
+                get_resource_name("assets/knitkit/Top.scala"),
+            ],
+            ".": [
+                get_resource_name("assets/knitkit/Makefile"),
+            ],
         },
     },
     'chisel3-v3.2': {
@@ -65,6 +93,9 @@ batteries = {
             ],
             "hw/chisel/src": [
                 get_resource_name("assets/chisel3-jlsemi-v3.2/Top.scala"),
+            ],
+            ".": [
+                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
             ],
         }
     },

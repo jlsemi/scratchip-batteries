@@ -12,6 +12,7 @@ setup(
             "assets/chisel3-v3.5.4/mill.tar.gz",
             "assets/chisel3-v3.5.4/Top.scala",
             "assets/chisel3-v3.5.4/build.sc",
+            "assets/chisel3-v3.5.4/Makefile",
             "assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar",
             "assets/chisel3-jlsemi-v3.5.4/Top.scala",
             "assets/chisel3-jlsemi-v3.5.4/build.sc",
@@ -20,6 +21,10 @@ setup(
             "assets/chisel3-jlsemi-v3.2/Top.scala",
             "assets/chisel3-jlsemi-v3.2/build.sc",
             "assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar",
+            "assets/knitkit/build.sc",
+            "assets/knitkit/knitkit.jar",
+            "assets/knitkit/Top.scala",
+            "assets/knitkit/Makefile",
         ],
     },
     use_scm_version={
