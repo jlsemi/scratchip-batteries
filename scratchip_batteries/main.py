@@ -95,7 +95,7 @@ batteries = {
                 get_resource_name("assets/chisel3-jlsemi-v3.2/Top.scala"),
             ],
             ".": [
-                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
+                get_resource_name("assets/chisel3-v3.2/Makefile"),
             ],
         }
     },

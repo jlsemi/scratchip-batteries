@@ -21,6 +21,7 @@ setup(
             "assets/chisel3-jlsemi-v3.2/Top.scala",
             "assets/chisel3-jlsemi-v3.2/build.sc",
             "assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar",
+            "assets/chisel3-jlsemi-v3.2/Makefile",
             "assets/knitkit/build.sc",
             "assets/knitkit/knitkit.jar",
             "assets/knitkit/Top.scala",
