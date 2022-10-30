@@ -10,3 +10,7 @@ export COURSIER_CACHE=$(scratchip_dir_rel)/cache
 verilog:
 	chmod +x $(scratchip_dir)/mill
 	cd $(base_dir)/hw/knitkit; $(scratchip_dir_rel)/mill knitkit.run -td $(base_dir_rel)/builds
+
+repl:
+	chmod +x $(scratchip_dir)/mill
+	cd $(base_dir)/hw/chisel; $(scratchip_dir_rel)/mill --repl
