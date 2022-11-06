@@ -7,6 +7,14 @@ object chisel extends ScalaModule {
 
   def millSourcePath = super.millSourcePath / os.up
 
+  override def scalacOptions = Seq(
+    "-language:reflectiveCalls",
+    "-deprecation",
+    "-feature",
+    "-Xcheckinit",
+    "-P:chiselplugin:genBundleElements"
+  )
+
   override def ivyDeps = Agg(
     ivy"edu.berkeley.cs::chisel3:${chisel_version}",
   )
