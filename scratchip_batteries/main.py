@@ -14,46 +14,55 @@ def get_resource_string(dest_name):
 default = "chisel3-v3.2"
 
 batteries = {
-    'chisel3-v3.5.4': {
+    'chisel3-v3.5.5': {
         "init": {
             ".scratchip": [
-                get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
-                get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.5/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.5/mill.tar.gz"),
+            ],
+            ".scratchip/jars": [
+                get_resource_name("assets/chisel3-v3.5.5/chisel3-v3.5.5.jar"),
+            ],
+            ".scratchip/plugin": [
+                get_resource_name("assets/chisel3-v3.5.5/plugin.jar"),
             ],
         },
         "create": {
             "hw/chisel/": [
-                get_resource_name("assets/chisel3-v3.5.4/build.sc"),
+                get_resource_name("assets/chisel3-v3.5.5/build.sc"),
             ],
             "hw/chisel/src": [
-                get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
+                get_resource_name("assets/chisel3-v3.5.5/Top.scala"),
             ],
             ".": [
-                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
+                get_resource_name("assets/chisel3-v3.5.5/Makefile"),
             ],
         }
     },
-    'chisel3-jlsemi-v3.5.4': {
+    'chisel3-jlsemi-v3.5.5': {
         "init": {
             ".scratchip": [
-                get_resource_name("assets/chisel3-v3.5.4/cache.tar.gz"),
-                get_resource_name("assets/chisel3-v3.5.4/mill.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.5/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.5/mill.tar.gz"),
             ],
             ".scratchip/jars": [
-                get_resource_name("assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar"),
+                get_resource_name("assets/chisel3-jlsemi-v3.5.5/chisel3-jlsemi-v3.5.5.jar"),
+            ],
+            ".scratchip/plugin": [
+                get_resource_name("assets/chisel3-v3.5.5/plugin.jar"),
             ],
         },
         "create": {
             "hw/chisel/": [
-                get_resource_name("assets/chisel3-jlsemi-v3.5.4/build.sc"),
+                get_resource_name("assets/chisel3-v3.5.5/build.sc"),
             ],
             "hw/chisel/src": [
-                get_resource_name("assets/chisel3-v3.5.4/Top.scala"),
+                get_resource_name("assets/chisel3-v3.5.5/Top.scala"),
             ],
             ".": [
-                get_resource_name("assets/chisel3-v3.5.4/Makefile"),
+                get_resource_name("assets/chisel3-v3.5.5/Makefile"),
             ],
-        },
+        }
     },
     'knitkit': {
         "init": {

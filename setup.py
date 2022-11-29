@@ -8,20 +8,23 @@ setup(
     packages=["scratchip_batteries"],
     package_data={
         "scratchip_batteries": [
-            "assets/chisel3-v3.5.4/cache.tar.gz",
-            "assets/chisel3-v3.5.4/mill.tar.gz",
-            "assets/chisel3-v3.5.4/Top.scala",
-            "assets/chisel3-v3.5.4/build.sc",
-            "assets/chisel3-v3.5.4/Makefile",
-            "assets/chisel3-jlsemi-v3.5.4/chisel3-jlsemi-v3.5.4.jar",
-            "assets/chisel3-jlsemi-v3.5.4/Top.scala",
-            "assets/chisel3-jlsemi-v3.5.4/build.sc",
+            "assets/chisel3-v3.5.5/cache.tar.gz",
+            "assets/chisel3-v3.5.5/mill.tar.gz",
+            "assets/chisel3-v3.5.5/Top.scala",
+            "assets/chisel3-v3.5.5/build.sc",
+            "assets/chisel3-v3.5.5/Makefile",
+            "assets/chisel3-v3.5.5/chisel3-v3.5.5.jar",
+            "assets/chisel3-v3.5.5/plugin.jar",
+
+            "assets/chisel3-jlsemi-v3.5.5/chisel3-jlsemi-v3.5.5.jar",
+
             "assets/chisel3-jlsemi-v3.2/cache.tar.gz",
             "assets/chisel3-jlsemi-v3.2/mill.tar.gz",
             "assets/chisel3-jlsemi-v3.2/Top.scala",
             "assets/chisel3-jlsemi-v3.2/build.sc",
             "assets/chisel3-jlsemi-v3.2/chisel3-jlsemi-v3.2.jar",
             "assets/chisel3-jlsemi-v3.2/Makefile",
+
             "assets/knitkit/build.sc",
             "assets/knitkit/knitkit.jar",
             "assets/knitkit/Top.scala",
