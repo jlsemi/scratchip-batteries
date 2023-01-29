@@ -8,6 +8,9 @@ setup(
     packages=["scratchip_batteries"],
     package_data={
         "scratchip_batteries": [
+            "assets/chisel3-jlsemi-v3.6.0/chisel3-jlsemi-v3.6.0.jar",
+            "assets/chisel3-jlsemi-v3.6.0/plugin-v3.6.0.jar",
+
             "assets/chisel3-v3.5.5/cache.tar.gz",
             "assets/chisel3-v3.5.5/mill.tar.gz",
             "assets/chisel3-v3.5.5/Top.scala",
@@ -31,10 +34,7 @@ setup(
             "assets/knitkit/Makefile",
         ],
     },
-    use_scm_version={
-        "relative_to": __file__,
-        "write_to": "scratchip_batteries/version.py",
-    },
+    version="0.2.7",
     author="Leway Colin@JLSemi",
     author_email="colinlin@jlsemi.com",
     description=(
@@ -48,7 +48,6 @@ setup(
         "console_scripts":
             ["scratchip_batteries = scratchip_batteries.main:main"],
     },
-    setup_requires=["setuptools_scm"],
     install_requires=[
     ],
     # Supported Python versions: 3.6+
