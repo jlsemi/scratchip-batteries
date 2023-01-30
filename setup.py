@@ -9,7 +9,7 @@ setup(
     package_data={
         "scratchip_batteries": [
             "assets/chisel3-jlsemi-v3.6.0/chisel3-jlsemi-v3.6.0.jar",
-            "assets/chisel3-jlsemi-v3.6.0/plugin-v3.6.0.jar",
+            "assets/chisel3-jlsemi-v3.6.0/plugin.jar",
 
             "assets/chisel3-v3.5.5/cache.tar.gz",
             "assets/chisel3-v3.5.5/mill.tar.gz",
