@@ -34,7 +34,7 @@ setup(
             "assets/knitkit/Makefile",
         ],
     },
-    version="0.2.7",
+    version="0.2.8",
     author="Leway Colin@JLSemi",
     author_email="colinlin@jlsemi.com",
     description=(
