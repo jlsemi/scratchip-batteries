@@ -14,6 +14,31 @@ def get_resource_string(dest_name):
 default = "chisel3-v3.2"
 
 batteries = {
+    'chisel3-v3.6.0': {
+        "init": {
+            ".scratchip": [
+                get_resource_name("assets/chisel3-v3.5.5/cache.tar.gz"),
+                get_resource_name("assets/chisel3-v3.5.5/mill.tar.gz"),
+            ],
+            ".scratchip/jars": [
+                get_resource_name("assets/chisel3-v3.6.0/chisel3-jlsemi-v3.6.0.jar"),
+            ],
+            ".scratchip/plugin": [
+                get_resource_name("assets/chisel3-v3.6.0/plugin.jar"),
+            ],
+        },
+        "create": {
+            "hw/chisel/": [
+                get_resource_name("assets/chisel3-v3.5.5/build.sc"),
+            ],
+            "hw/chisel/src": [
+                get_resource_name("assets/chisel3-v3.5.5/Top.scala"),
+            ],
+            ".": [
+                get_resource_name("assets/chisel3-v3.5.5/Makefile"),
+            ],
+        }
+    },
     'chisel3-jlsemi-v3.6.0': {
         "init": {
             ".scratchip": [
