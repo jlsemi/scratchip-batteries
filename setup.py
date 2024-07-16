@@ -8,6 +8,8 @@ setup(
     packages=["scratchip_batteries"],
     package_data={
         "scratchip_batteries": [
+            "assets/chisel3-jlsemi-v3.6.0.1/chisel3-jlsemi-v3.6.0.1.jar",
+
             "assets/chisel3-v3.6.0/chisel3-jlsemi-v3.6.0.jar",
             "assets/chisel3-v3.6.0/plugin.jar",
 
@@ -37,7 +39,7 @@ setup(
             "assets/knitkit/Makefile",
         ],
     },
-    version="0.2.9",
+    version="0.2.10",
     author="Leway Colin@JLSemi",
     author_email="colinlin@jlsemi.com",
     description=(
